@@ -10,7 +10,6 @@
         </groups>
         <classes>
             <class name="org.example.testngPractice.testngattributepart2"/>
-
         </classes>
     </test>
 </suite>
