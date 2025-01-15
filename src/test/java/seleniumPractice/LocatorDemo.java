@@ -109,3 +109,29 @@ public class LocatorDemo {
         driver.close();
     }
 }
+
+// POM
+// pageObject
+// pageClasses
+// utility
+// log4j
+// testNG
+// xml
+// extentReport
+// allureReport
+
+// Cucumber - POM + CucumberFile (.feature, stepDefinition)
+// 4 Different Hooks
+
+// POM
+// pageObject
+// pageClasses
+// utility
+// log4j
+// testNG
+// .features
+// tags
+// stepDefinition
+// testRunner
+// extentReport
+// allureReport
