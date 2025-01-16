@@ -80,7 +80,7 @@ public class LocatorDemo2 {
         - Using text() - //td[text()='UserID'] - Ex -- //a[text()='home']
         - Xpath Axes
         - following - //a[text()='home']//following::form
-        -
+
 
     Absolute Xpath
     - Starts with /
