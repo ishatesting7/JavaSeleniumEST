@@ -55,6 +55,5 @@ public class ActionClassInSelenium {
 
         action.clickAndHold(source).moveToElement(destination).release();
 
-
     }
 }
