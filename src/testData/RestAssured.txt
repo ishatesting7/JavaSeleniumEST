@@ -1,0 +1,21 @@
+
+Rest Assured with API Testing
+-----------------------------
+
+- TestNG
+- RestAssured Dependency
+- Json-Path
+
+
+GET
+POST
+PUT
+PATCH
+DELETE
+
+HTTPS STATUS CDDE - 200, 201, 400, 401, 500 -->
+1XX
+2XX
+3XX - Redirection
+4XX - Front end error - Client Side error
+5XX - Back end error - Server Side Error
