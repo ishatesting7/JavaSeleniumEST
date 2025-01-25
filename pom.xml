@@ -54,6 +54,19 @@
       <version>2.9.0</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.18.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.26</version> <!-- Use the appropriate version for your database -->
+    </dependency>
+
 
     <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
     <dependency>
