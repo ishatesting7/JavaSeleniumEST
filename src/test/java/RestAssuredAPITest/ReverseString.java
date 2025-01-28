@@ -33,8 +33,15 @@ public class ReverseString {
         System.out.println(String.valueOf(result));
 
     }
+
 }
 
+/*
+
+Array - 31 and 39
+Count the number of 3 which is repeating - 31, 32, 33, 34, 35, 36, 37, 38, 39
+
+ */
 
 //Reverse a string
 //Reverse a string preserving the whitespace
