@@ -12,6 +12,7 @@ public class shadowRootDemo {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.prudential.com/");
+        driver.manage().window().maximize();
 
         Thread.sleep(5000);
         WebElement ele = driver.findElement(By.cssSelector("[class='pru-header app-js__mega-menu-top-nav']"));

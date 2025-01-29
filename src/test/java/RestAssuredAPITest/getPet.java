@@ -1,5 +1,6 @@
 package RestAssuredAPITest;
 
+import TestNGListeners.Log;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -14,7 +15,7 @@ public class getPet {
     public void getPetDetails()
     {
         int petId = 10;
-
+        Log.info("I am running get Pet Details API");
         Response response = RestAssured.given()
                 .baseUri(baseurl)
                 .basePath("/pet/{petId}")
@@ -36,6 +37,8 @@ public class getPet {
     @Test
     public void getPetDetailsNotFound()
     {
+        Log.info("I am running get Pet Details API - Not Found");
+
         int petId = 10000000;
 
         Response response = RestAssured.given()
@@ -57,6 +60,8 @@ public class getPet {
     @Test
     public void getPetDetailsUrlMismatch()
     {
+        Log.info("I am running get Pet Details API - Mis match");
+
         int petId = 10000000;
 
         Response response = RestAssured.given()
@@ -81,6 +86,7 @@ public class getPet {
     @Test
     void createPetInPetSwagger()
     {
+        Log.info("I am running for creating a new Pet");
 
             String petJson = "{\n" +
                     "  \"id\": 1981,\n" +
